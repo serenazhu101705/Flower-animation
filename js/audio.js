@@ -15,4 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
     audio.play();
     playButton.style.display = "none";
   });
+
+  // Function to stop the music
+  window.stopMusic = function() {
+    audio.pause();
+    audio.currentTime = 0;
+  };
 });
