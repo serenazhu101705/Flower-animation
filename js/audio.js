@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var audio = new Audio("./img/I GUESS I'M IN LOVE.mp3");
+  var audio = new Audio("./img/Guilty as Sin_.mp3");
+  audio.loop = true; // Add this line to loop the song
   var playButton = document.getElementById("play-music-btn");
 
   var playPromise = audio.play();
