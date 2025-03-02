@@ -1359,4 +1359,15 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  font-size: 20px; /* Increase the font size */
+  padding: 10px 20px; /* Increase the padding */
+  background-color: #f0f0f0; /* Background color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button-bottom-middle a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from button */
 }
