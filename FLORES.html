@@ -323,30 +323,6 @@
     <script src="./js/main.js"></script>
     <!-- <script src="./js/audio.js"></script> -->
     <script src="./js/audio.js"></script>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      setTimeout(function () {
-        var videoElement = document.createElement("video");
-        videoElement.id = "corner-video";
-        videoElement.width = 320;
-        videoElement.height = 240;
-        videoElement.controls = true;
-        videoElement.style.position = "fixed";
-        videoElement.style.bottom = "10px";
-        videoElement.style.right = "10px";
-        videoElement.style.zIndex = "10";  // Ensure the video is on top
-        
-        var sourceElement = document.createElement("source");
-        sourceElement.src = "./img/v12044gd0000cv1ta4nog65ppra7s1o0 (1).mp4";
-        sourceElement.type = "video/mp4";
-        
-        videoElement.appendChild(sourceElement);
-        document.body.appendChild(videoElement);
-      }, 10000); // 10000 milliseconds = 10 seconds
-    });
-  </script>
-
     
   </body>
 </html>
