@@ -1355,7 +1355,7 @@ body {
 
 .button-bottom-middle {
   position: fixed;
-  bottom: 50px;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
