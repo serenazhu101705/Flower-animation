@@ -1,11 +1,9 @@
-let myAudio = new Audio("./img/I GUESS I'M IN LOVE.mp3"); // Create an Audio object with the new file
+let myAudio = new Audio("./img/I GUESS I'M IN LOVE.mp3");
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    setInterval(GameLoop, 1000 / 10); // Start the game loop when the DOM content is fully loaded
+    document.getElementById('play-audio').addEventListener('click', () => {
+        myAudio.play();
+        // Optionally hide the button after playing
+        document.getElementById('play-audio').style.display = 'none';
+    });
 });
-
-function GameLoop() {
-    if (myAudio.paused) { // Check if the audio is paused
-        myAudio.play(); // If paused, play the audio
-    }
-}
