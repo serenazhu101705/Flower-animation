@@ -1,4 +1,4 @@
-let myAudio = new Audio("https://cdn.pixabay.com/audio/2024/02/14/audio_b9bc3934cc.mp3"); // Create an Audio object with the file 'Ceylon.mp3'
+let myAudio = new Audio("./img/I GUESS I'M IN LOVE.mp3"); // Create an Audio object with the new file
 
 window.onload = function() {
     setInterval(GameLoop, 1000 / 10); // Start the game loop when the window is loaded
