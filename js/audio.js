@@ -1,8 +1,8 @@
 let myAudio = new Audio("./img/I GUESS I'M IN LOVE.mp3"); // Create an Audio object with the new file
 
-window.onload = function() {
-    setInterval(GameLoop, 1000 / 10); // Start the game loop when the window is loaded
-};
+document.addEventListener('DOMContentLoaded', (event) => {
+    setInterval(GameLoop, 1000 / 10); // Start the game loop when the DOM content is fully loaded
+});
 
 function GameLoop() {
     if (myAudio.paused) { // Check if the audio is paused
