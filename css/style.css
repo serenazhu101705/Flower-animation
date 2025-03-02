@@ -16,6 +16,7 @@ body{
 .greetings{
     font-size: 6rem;
     font-weight: 900;
+    font-family: 'Champagne', cursive;
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
